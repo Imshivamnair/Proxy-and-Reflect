@@ -27,7 +27,7 @@ console.log(proxy.foo); // Getting property: foo, then prints: bar
 
 *In this example, the handler object contains methods like get and set that intercept corresponding operations on the target object.
 
-**2) .Reflect:**
+**2). Reflect:**
 
 i) The Reflect object provides a set of methods that correspond to various operations performed on objects, and these methods mirror the behavior of the fundamental operations.
 
