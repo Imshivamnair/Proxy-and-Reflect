@@ -48,6 +48,6 @@ const proxy = new Proxy(target, handler);
 proxy.foo = 'bar';
 console.log(proxy.foo); // Getting property: foo, then prints: bar
 
-ii) In this example, the Reflect.get method is used to retrieve the value of a property, and it is called inside the get method of the handler object.
+iii) In this example, the Reflect.get method is used to retrieve the value of a property, and it is called inside the get method of the handler object.
 
 Both Proxy and Reflect are powerful tools for creating more flexible and customizable object behavior. They are often used together to implement advanced patterns such as object validation, logging, and more.
